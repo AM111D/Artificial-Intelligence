@@ -10,11 +10,59 @@
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Artificial Intelligence</title>
 </head>
+
 <body>
-    <header>
-        <img src="./images/robot-header.svg" alt="">
-        <h3>Artificial Intelligence</h3>
+    <header class="header">
+        <div class="container header-style">
+            <!-- <div class="header-logo"> -->
+                <img class="header-logo_img" src="./images/robot-header.svg" alt="">
+                <h3 class="header-logo_title">Artificial Intelligence</h3>
+            <!-- </div> -->
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">Home</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">About</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">Services</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">Blog</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">Contact</a></li>
+                </ul>
+                
+            </nav>
+            <button class="header-btn" type="button">Sign In</button>
+
+
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item a" href="#">Home</a></li>
+                    <li><a class="menu__item a" href="#">About</a></li>
+                    <li><a class="menu__item a" href="#">Services</a></li>
+                    <li><a class="menu__item a" href="#">Blog</a></li>
+                    <li><a class="menu__item a" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
+
+    <main>
+        <section class="home">
+            <div class="container">
+                <img src="./images/rocket.png" alt="" class="home_img">
+                <p>Next genaretion platform</p>
+                <h1>Artificial intelligence & Syber security</h1>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <button>Get Started</button>
+                <button>Watch Video</button>
+            </div>
+        </section>
+    </main>
   
+
+
 </body>
 </html>
