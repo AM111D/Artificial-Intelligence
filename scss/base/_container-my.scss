@@ -9,7 +9,7 @@
 // }
 
 
-.container {
+.container-my {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -17,20 +17,20 @@
     width: 100%;
   }
   @media screen and (min-width: 480px) {
-    .container {
+    .container-my {
       width: 480px;
       margin: 0 auto;
     }
   }
   
   @media screen and (min-width: 768px) {
-    .container {
+    .container-my {
       width: 768px;
     }
   }
   
   @media screen and (min-width: 1200px) {
-    .container {
+    .container-my {
       width: 1200px;
     }
   }
